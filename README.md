@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+# Readings in Operating Systems
 
-You can use the [editor on GitHub](https://github.com/X-czh/os-readings/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+A list of papers essential to computer software system design.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Historical Perspectives
 
-### Markdown
+* E. W. Dijkstra, _The Structure of the "THE"-Multiprogramming System_ (1967).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* The Nucleus of a Multiprogramming System
 
-```markdown
-Syntax highlighted code block
+* P. B. Hansen, The Nucleus of a Multiprogramming System
 
-# Header 1
-## Header 2
-### Header 3
+* TENEX, a Paged Time Sharing System for the PDP-10 (1971). Paper | Note
 
-- Bulleted
-- List
+* HYDRA: The Kernel of a Multiprocessor Operating System (1974).
 
-1. Numbered
-2. List
+## Unix and Plan 9
 
-**Bold** and _Italic_ and `Code` text
+* The UNIX Time-Sharing System (1973). Paper | Note
 
-[Link](url) and ![Image](src)
-```
+* Plan 9 From Bell Labs (1995) Paper | Note
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Microkernel
 
-### Jekyll Themes
+* Improving IPC by Kernel Design (1993). [Paper](https://dl.acm.org/doi/10.1145/173668.168633) | [Note](notes/improving-ipc-by-kernel-design.md)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/X-czh/os-readings/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+* The Performance of μ-Kernel-Based Systems (1997). [Paper](https://dl.acm.org/doi/10.1145/269005.266660) | [Note](notes/perf-microkernel-based-system)
 
-### Support or Contact
+## Library OS
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Synchronization
+
+## Scheduling
+
+## Memory Management
+
+## Virtualization
+
+## Storage and File Systems
+
+## Communication
+
+## Distributed Systems
+
+## Performance
+
+## Protection
+
+## Reliability
