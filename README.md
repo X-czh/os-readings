@@ -16,9 +16,9 @@ A list of papers essential to computer software system design.
 
 ## Unix and Plan 9
 
-* The UNIX Time-Sharing System (1973). Paper \| Note
+* The UNIX Time-Sharing System (1973). [Paper](https://dl.acm.org/doi/10.1145/361011.361061) \| [Note](notes/unix.md)
 
-* Plan 9 From Bell Labs (1995) Paper \| Note
+* Plan 9 From Bell Labs (1995) [Paper](https://www.usenix.org/legacy/publications/compsystems/1995/sum_pike.pdf) \| [Note](notes/plan9.md)
 
 ## Microkernel
 

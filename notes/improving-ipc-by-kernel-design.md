@@ -1,6 +1,6 @@
 # Improving IPC by Kernel Design
 
-Jochen Liedtke, 1993
+Jochen Liedtke, SOSP 1993
 
 ## Motivation: The IPC Dilemma
 
