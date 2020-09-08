@@ -1,18 +1,16 @@
 # Readings in Operating Systems
 
-A list of papers essential to computer software system design.
+theA list of papers essential to computer software system design with my notes. The list is from the [reading list](https://cs523-uiuc.github.io/fall20/readings.html) of UIUC CS 523 Advanced Operating Systems, Fall 2020.
 
 ## Historical Perspectives
 
-* E. W. Dijkstra, _The Structure of the "THE"-Multiprogramming System_ (1967).
+* The Structure of the "THE"-Multiprogramming System (1967). [Paper](https://dl.acm.org/doi/10.1145/363095.363143) \| [Note](notes/the.md)
 
-* The Nucleus of a Multiprogramming System
+* The Nucleus of a Multiprogramming System (1970). [Paper](https://dl.acm.org/doi/10.1145/362258.362278) \| Note
 
-* P. B. Hansen, The Nucleus of a Multiprogramming System
+* TENEX, a Paged Time Sharing System for the PDP-10 (1971). [Paper](https://dl.acm.org/doi/10.1145/361268.361271) \| Note
 
-* TENEX, a Paged Time Sharing System for the PDP-10 (1971). Paper \| Note
-
-* HYDRA: The Kernel of a Multiprocessor Operating System (1974).
+* HYDRA: The Kernel of a Multiprocessor Operating System (1974). [Paper](https://dl.acm.org/doi/10.1145/355616.364017) \| Note
 
 ## Unix and Plan 9
 
@@ -24,7 +22,7 @@ A list of papers essential to computer software system design.
 
 * Improving IPC by Kernel Design (1993). [Paper](https://dl.acm.org/doi/10.1145/173668.168633) \| [Note](notes/improving-ipc-by-kernel-design.md)
 
-* The Performance of μ-Kernel-Based Systems (1997). [Paper](https://dl.acm.org/doi/10.1145/269005.266660) \| [Note](notes/perf-microkernel-based-system)
+* The Performance of μ-Kernel-Based Systems (1997). [Paper](https://dl.acm.org/doi/10.1145/269005.266660) \| [Note](notes/perf-microkernel-based-system.md)
 
 ## Library OS
 
