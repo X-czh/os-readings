@@ -26,6 +26,10 @@ A list of papers essential to computer software system design with my notes. The
 
 ## Library OS
 
+* Exokernel: An Operating System Architecture for Application-Level Resource Management (1995).
+
+* Unikernels: Library Operating Systems for the Cloud (2013).
+
 ## Synchronization
 
 ## Scheduling
