@@ -10,21 +10,21 @@ A list of papers essential to computer software system design.
 
 * P. B. Hansen, The Nucleus of a Multiprogramming System
 
-* TENEX, a Paged Time Sharing System for the PDP-10 (1971). Paper | Note
+* TENEX, a Paged Time Sharing System for the PDP-10 (1971). Paper \| Note
 
 * HYDRA: The Kernel of a Multiprocessor Operating System (1974).
 
 ## Unix and Plan 9
 
-* The UNIX Time-Sharing System (1973). Paper | Note
+* The UNIX Time-Sharing System (1973). Paper \| Note
 
-* Plan 9 From Bell Labs (1995) Paper | Note
+* Plan 9 From Bell Labs (1995) Paper \| Note
 
 ## Microkernel
 
-* Improving IPC by Kernel Design (1993). [Paper](https://dl.acm.org/doi/10.1145/173668.168633) | [Note](notes/improving-ipc-by-kernel-design.md)
+* Improving IPC by Kernel Design (1993). [Paper](https://dl.acm.org/doi/10.1145/173668.168633) \| [Note](notes/improving-ipc-by-kernel-design.md)
 
-* The Performance of μ-Kernel-Based Systems (1997). [Paper](https://dl.acm.org/doi/10.1145/269005.266660) | [Note](notes/perf-microkernel-based-system)
+* The Performance of μ-Kernel-Based Systems (1997). [Paper](https://dl.acm.org/doi/10.1145/269005.266660) \| [Note](notes/perf-microkernel-based-system)
 
 ## Library OS
 
