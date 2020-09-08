@@ -1,6 +1,6 @@
 # Readings in Operating Systems
 
-theA list of papers essential to computer software system design with my notes. The list is from the [reading list](https://cs523-uiuc.github.io/fall20/readings.html) of UIUC CS 523 Advanced Operating Systems, Fall 2020.
+A list of papers essential to computer software system design with my notes. The list is from the [reading list](https://cs523-uiuc.github.io/fall20/readings.html) of UIUC CS 523 Advanced Operating Systems, Fall 2020.
 
 ## Historical Perspectives
 
