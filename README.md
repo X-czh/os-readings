@@ -12,11 +12,15 @@ A list of papers essential to computer software system design with my notes. The
 
 * HYDRA: The Kernel of a Multiprocessor Operating System (1974). [Paper](https://dl.acm.org/doi/10.1145/355616.364017) \| Note
 
-## Unix and Plan 9
+## Unix and Plan 9 (and MINIX and Linux)
 
 * The UNIX Time-Sharing System (1973). [Paper](https://dl.acm.org/doi/10.1145/361011.361061) \| [Note](notes/unix.md)
 
-* Plan 9 From Bell Labs (1995) [Paper](https://www.usenix.org/legacy/publications/compsystems/1995/sum_pike.pdf) \| [Note](notes/plan9.md)
+* Plan 9 From Bell Labs (1995). [Paper](https://www.usenix.org/legacy/publications/compsystems/1995/sum_pike.pdf) \| [Note](notes/plan9.md)
+
+* Lessons Learned from 30 Years of MINIX (2016). [Paper](https://cacm.acm.org/magazines/2016/3/198874-lessons-learned-from-30-years-of-minix/fulltext) \| [Note](notes/minix.md)
+
+* [Linux's Early History](https://www.cs.cmu.edu/~awb/linux.history.html) by Linus Torvalds (1992).
 
 ## Microkernel
 
@@ -26,19 +30,55 @@ A list of papers essential to computer software system design with my notes. The
 
 ## Library OS
 
-* Exokernel: An Operating System Architecture for Application-Level Resource Management (1995).
+* Exokernel: An Operating System Architecture for Application-Level Resource Management (1995). [Paper](https://dl.acm.org/doi/10.1145/224057.224076) \| [Note](notes/exokernel.md)
 
-* Unikernels: Library Operating Systems for the Cloud (2013).
+* Unikernels: Library Operating Systems for the Cloud (2013). [Paper](https://dl.acm.org/doi/10.1145/2490301.2451167) \| [Note](notes/unikernel.md)
 
 ## Synchronization
 
+* Monitors: An Operating System Structuring Concept (1974).
+
+* Experience with Processes and Monitors in Mesa (1980).
+
+* Eraser: A Dynamic Data Race Detector for Multi-Threaded Programs (1997).
+
+* Making Parallel Programs Reliable with Stable Multithreading (2014).
+
+* Ad Hoc Synchronization Considered Harmful (2010).
+
 ## Scheduling
+
+* Scheduler Activations: Effective Kernel Support for the User-level Management of Parallelism (1991).
+
+* The Linux Scheduler: a Decade of Wasted Cores (2016).
+
+* Lottery Scheduling: Flexible Proportional-Share Resource Management (1994).
 
 ## Memory Management
 
 ## Virtualization
 
+* Xen and the Art of Virtualization
+
+* A Comparison of Software and Hardware Techniques for x86 Virtualization
+
+* My VM is Lighter (and Safer) than your Container
+
 ## Storage and File Systems
+
+* A Fast File System for Unix (1984).
+
+* The Design and Implementation of a Log-Structured File System (1991).
+
+* Soft Updates: A Solution to the Metadata Update Problem in File Systems (2000).
+
+* The Rio File Cache: Surviving Operating System Crashes (1996).
+
+* The Google File System (2003).
+
+* Windows Azure Storage: A Highly Available Cloud Storage Service with Strong Consistency (2011).
+
+* Dynamo: Amazon's Highly Available Key-value Store (2007).
 
 ## Communication
 
