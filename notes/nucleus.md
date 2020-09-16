@@ -1,5 +1,7 @@
 # The Nucleus of a Multiprogramming System
 
+P. B. Hansen, Communications of the ACM (1970)
+
 ## Summary
 
 Concept of OS Kernel; Separation of Policy and Mechanism
