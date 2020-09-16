@@ -1,6 +1,6 @@
 # The Nucleus of a Multiprogramming System
 
-P. B. Hansen, Communications of the ACM (1970)
+P. B. Hansen, Communications of the ACM 1970
 
 ## Summary
 

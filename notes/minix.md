@@ -1,6 +1,6 @@
 # Lessons Learned from 30 Years of MINIX
 
-Andrew S. Tanenbaum, Communications of the ACM (2016)
+Andrew S. Tanenbaum, Communications of the ACM 2016
 
 ## OS-specific lessons
 
