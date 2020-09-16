@@ -6,7 +6,7 @@ A list of papers essential to computer software system design with my notes. The
 
 * The Structure of the "THE"-Multiprogramming System (1967). [Paper](https://dl.acm.org/doi/10.1145/363095.363143) \| [Note](notes/the.md)
 
-* The Nucleus of a Multiprogramming System (1970). [Paper](https://dl.acm.org/doi/10.1145/362258.362278) \| Note
+* The Nucleus of a Multiprogramming System (1970). [Paper](https://dl.acm.org/doi/10.1145/362258.362278) \| [Note](notes/nucleus.md)
 
 * TENEX, a Paged Time Sharing System for the PDP-10 (1971). [Paper](https://dl.acm.org/doi/10.1145/361268.361271) \| Note
 
