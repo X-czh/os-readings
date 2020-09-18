@@ -1,6 +1,6 @@
 # Readings in Operating Systems
 
-A list of papers essential to computer software system design with my notes. The list is from the [reading list](https://cs523-uiuc.github.io/fall20/readings.html) of UIUC CS 523 Advanced Operating Systems, Fall 2020.
+A list of papers essential to computer software system design with my notes. It is based on the reading lists of [CS 523 Advanced Operating Systems (Fall 2020)](https://cs523-uiuc.github.io/fall20/readings.html) and [CS 423 Operating System Design (Spring 2020)](https://cs423-uiuc.github.io/spring20/) at UIUC.
 
 ## Historical Perspectives
 
@@ -40,11 +40,13 @@ A list of papers essential to computer software system design with my notes. The
 
 * Experience with Processes and Monitors in Mesa (1980). [Paper](https://dl.acm.org/doi/10.1145/358818.358824) \| [Note](notes/monitor-mesa.md)
 
+* Transactional Memory: Architectural Support for Lock-Free Data Structures (1993). [Paper](https://dl.acm.org/doi/10.1145/173682.165164) \| [Note](notes/transactional-memory.md)
+
 * Eraser: A Dynamic Data Race Detector for Multi-Threaded Programs (1997).
 
 * Making Parallel Programs Reliable with Stable Multithreading (2014).
 
-* Ad Hoc Synchronization Considered Harmful (2010).
+* Ad Hoc Synchronization Considered Harmful (2010). [Paper](https://www.usenix.org/legacy/events/osdi10/tech/full_papers/Xiong.pdf) \| [Note](notes/ad-hoc-sync.md)
 
 ## Scheduling
 
