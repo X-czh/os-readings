@@ -42,6 +42,10 @@ separate protection from management. exokernel does this by exporting hardware r
 
 3. **Abort Protocol**: An exokernel must also be able to take resources from libOSes that fail to respond satisfactorily to revocation requests. An exokemel can define a second stage of the revocation protocol in which the revocation request ("please return a memory page") becomes an imperative ("return a page within 50 microseconds").
 
+## Evaluation
+
+The performance evaluation in this paper are all series of micro-benchmarks about mechanism, but no macro-benchmarks about applications.
+
 ## Pros and Cons
 
 ### Pros
