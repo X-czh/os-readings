@@ -36,9 +36,9 @@ A list of papers essential to computer software system design with my notes. The
 
 ## Synchronization
 
-* Monitors: An Operating System Structuring Concept (1974).
+* Monitors: An Operating System Structuring Concept (1974). [Paper](https://dl.acm.org/doi/10.1145/355620.361161) \| [Note](notes/monitor.md)
 
-* Experience with Processes and Monitors in Mesa (1980).
+* Experience with Processes and Monitors in Mesa (1980). [Paper](https://dl.acm.org/doi/10.1145/358818.358824) \| [Note](notes/monitor-mesa.md)
 
 * Eraser: A Dynamic Data Race Detector for Multi-Threaded Programs (1997).
 
