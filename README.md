@@ -37,7 +37,7 @@ A list of papers essential to computer software system design with my notes. It 
 ## Synchronization
 
 * Experience with Processes and Monitors in Mesa (1980). [Paper](https://dl.acm.org/doi/10.1145/358818.358824) \| [Note](notes/monitor-mesa.md)
-  * Monitors: An Operating System Structuring Concept (1974). [Paper](https://dl.acm.org/doi/10.1145/355620.361161)
+  * Background: Monitors: An Operating System Structuring Concept (1974). [Paper](https://dl.acm.org/doi/10.1145/355620.361161)
 
 * Transactional Memory: Architectural Support for Lock-Free Data Structures (1993). [Paper](https://dl.acm.org/doi/10.1145/173682.165164) \| [Note](notes/transactional-memory.md)
 
@@ -49,11 +49,12 @@ A list of papers essential to computer software system design with my notes. It 
 
 ## Scheduling
 
-* Scheduler Activations: Effective Kernel Support for the User-level Management of Parallelism (1991).
+* Scheduler Activations: Effective Kernel Support for the User-level Management of Parallelism (1991). [Paper](https://dl.acm.org/doi/10.1145/121132.121151) \| [Note](notes/sched-activation.md)
+  * Background: The Structuring of Systems Using Upcalls (1985). [Paper](https://dl.acm.org/doi/10.1145/323647.323645) \| [Note](notes/upcall.md)
 
-* The Linux Scheduler: a Decade of Wasted Cores (2016). [Paper](https://dl.acm.org/doi/10.1145/2901318.2901326) \| [Note](notes/linux-schd-bug.md)
+* The Linux Scheduler: a Decade of Wasted Cores (2016). [Paper](https://dl.acm.org/doi/10.1145/2901318.2901326) \| [Note](notes/linux-sched-bug.md)
 
-* Lottery Scheduling: Flexible Proportional-Share Resource Management (1994).
+* Lottery Scheduling: Flexible Proportional-Share Resource Management (1994). [Paper](https://www.usenix.org/legacy/publications/library/proceedings/osdi/full_papers/waldspurger.pdf)  \| [Note](notes/lottery-sched.md)
 
 ## Memory Management
 
