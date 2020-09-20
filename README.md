@@ -60,31 +60,37 @@ A list of papers essential to computer software system design with my notes. It 
 
 ## Virtualization
 
-* Xen and the Art of Virtualization
+* Xen and the Art of Virtualization (2003).
 
-* A Comparison of Software and Hardware Techniques for x86 Virtualization
+* A Comparison of Software and Hardware Techniques for x86 Virtualization (2006).
 
-* My VM is Lighter (and Safer) than your Container
+* My VM is Lighter (and Safer) than your Container (2017).
 
 ## Storage and File Systems
 
-* A Fast File System for Unix (1984).
+* A Fast File System for Unix (1984). [Paper](https://dl.acm.org/doi/10.1145/989.990) \| [Note](notes/ffs.md)
 
-* The Design and Implementation of a Log-Structured File System (1991).
+* The Design and Implementation of a Log-Structured File System (1991). [Paper](https://dl.acm.org/doi/10.1145/121133.121137) \| [Note](notes/lfs.md)
 
-* Soft Updates: A Solution to the Metadata Update Problem in File Systems (2000).
+* Soft Updates: A Solution to the Metadata Update Problem in File Systems (2000). [Paper](https://dl.acm.org/doi/10.1145/350853.350863) \| [Note](notes/soft-updates.md)
 
-* The Rio File Cache: Surviving Operating System Crashes (1996).
+* The Rio File Cache: Surviving Operating System Crashes (1996). [Paper](https://dl.acm.org/doi/10.1145/989.990) \| [Note](notes/ffs.md)
 
-* The Google File System (2003).
+* The Google File System (2003). [Paper](https://dl.acm.org/doi/10.1145/945445.945450) \| [Note](notes/gfs.md)
 
-* Windows Azure Storage: A Highly Available Cloud Storage Service with Strong Consistency (2011).
-
-* Dynamo: Amazon's Highly Available Key-value Store (2007).
+* Windows Azure Storage: A Highly Available Cloud Storage Service with Strong Consistency (2011). [Paper](https://dl.acm.org/doi/10.1145/2043556.2043571) \| [Note](notes/azure-storage.md)
 
 ## Communication
 
 ## Distributed Systems
+
+* The Sprite Network Operating System (1988).
+
+* The Distributed V Kernel and its Performance for Diskless Workstations (1983).
+
+* Web Search for a Planet: The Google Cluster Architecture (2003).
+
+* MapReduce: Simplified Data Processing on Large Clusters (2004).
 
 ## Performance
 
