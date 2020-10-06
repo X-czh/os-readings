@@ -36,7 +36,7 @@ GFS has a relaxed consistency model with the following guarantees: file namespac
 
 ### System Interactions
 
-The system is designed to minimize the master’s involvement in all operations. The master grants a chunk lease to one of the replicas selected as the primary replica, which minimize management overhead at the master. During the order decision process, data flow and control flow are decoupled to fully utilize each machine's network bandwidth. Also, GFS supports efficient snapshot and record append operations.
+The system is designed to minimize the master's involvement in all operations. The master grants a chunk lease to one of the replicas selected as the primary replica, which minimize management overhead at the master. During the order decision process, data flow and control flow are decoupled to fully utilize each machine's network bandwidth. Also, GFS supports efficient snapshot and record append operations.
 
 ### Master Operation
 
