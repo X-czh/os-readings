@@ -58,6 +58,10 @@ A list of papers essential to computer software system design with my notes. It 
 
 ## Memory Management
 
+* Translation Caching: Skip, Don’t Walk (the Page Table) (2010). [Paper](https://dl.acm.org/doi/10.1145/1815961.1815970)  \| [Note](notes/translation-cache.md)
+
+* Coordinated and Efficient Huge Page Management with Ingens (2016). [Paper](https://www.usenix.org/system/files/conference/osdi16/osdi16-kwon.pdf)  \| [Note](notes/ingens.md)
+
 ## Virtualization
 
 * Xen and the Art of Virtualization (2003).
@@ -74,7 +78,7 @@ A list of papers essential to computer software system design with my notes. It 
 
 * Soft Updates: A Solution to the Metadata Update Problem in File Systems (2000). [Paper](https://dl.acm.org/doi/10.1145/350853.350863) \| [Note](notes/soft-updates.md)
 
-* The Rio File Cache: Surviving Operating System Crashes (1996). [Paper](https://dl.acm.org/doi/10.1145/989.990) \| [Note](notes/ffs.md)
+* The Rio File Cache: Surviving Operating System Crashes (1996). [Paper](https://dl.acm.org/doi/10.1145/989.990) \| [Note](notes/rio.md)
 
 * The Google File System (2003). [Paper](https://dl.acm.org/doi/10.1145/945445.945450) \| [Note](notes/gfs.md)
 
