@@ -58,15 +58,19 @@ A list of papers essential to computer software system design with my notes. It 
 
 ## Memory Management
 
-* Translation Caching: Skip, Don’t Walk (the Page Table) (2010). [Paper](https://dl.acm.org/doi/10.1145/1815961.1815970)  \| [Note](notes/translation-cache.md)
+* Translation Caching: Skip, Don’t Walk (the Page Table) (2010). [Paper](https://dl.acm.org/doi/10.1145/1815961.1815970) \| [Note](notes/translation-cache.md)
+
+* Elastic Cuckoo Page Tables: Rethinking Virtual Memory Translation for Parallelism (2020). [Paper](https://dl.acm.org/doi/10.1145/3373376.3378493) \| [Note](notes/elastic-cuckoo-page-table.md)
+
+* Efficient Virtual Memory for Big Memory Servers (2013). [Paper](https://dl.acm.org/citation.cfm?id=2485943) \| [Note](notes/direct-segment.md)
 
 * Coordinated and Efficient Huge Page Management with Ingens (2016). [Paper](https://www.usenix.org/system/files/conference/osdi16/osdi16-kwon.pdf)  \| [Note](notes/ingens.md)
 
 ## Virtualization
 
-* Xen and the Art of Virtualization (2003).
+* Xen and the Art of Virtualization (2003). [Paper](https://dl.acm.org/citation.cfm?id=945462) \| [Note](notes/xen.md)
 
-* A Comparison of Software and Hardware Techniques for x86 Virtualization (2006).
+* A Comparison of Software and Hardware Techniques for x86 Virtualization (2006). [Paper](https://dl.acm.org/citation.cfm?id=1168860) \| [Note](notes/sw-hw-virt.md)
 
 * My VM is Lighter (and Safer) than your Container (2017).
 
