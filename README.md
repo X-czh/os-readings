@@ -5,32 +5,43 @@ A list of papers essential to computer software system design with my notes. It 
 ## Historical Perspectives
 
 * The Structure of the "THE"-Multiprogramming System (1967). [Paper](https://dl.acm.org/doi/10.1145/363095.363143) \| [Note](notes/the.md)
+  * Layered OS structure
 
 * The Nucleus of a Multiprogramming System (1970). [Paper](https://dl.acm.org/doi/10.1145/362258.362278) \| [Note](notes/nucleus.md)
+  * OS kernel; Separation of policy and mechanism
 
-* TENEX, a Paged Time Sharing System for the PDP-10 (1971). [Paper](https://dl.acm.org/doi/10.1145/361268.361271) \| Note
+* TENEX, a Paged Time Sharing System for the PDP-10 (1971). [Paper](https://dl.acm.org/doi/10.1145/361268.361271)
+  * Paged virtual memory; Interactive terminal
 
-* HYDRA: The Kernel of a Multiprocessor Operating System (1974). [Paper](https://dl.acm.org/doi/10.1145/355616.364017) \| Note
+* HYDRA: The Kernel of a Multiprocessor Operating System (1974). [Paper](https://dl.acm.org/doi/10.1145/355616.364017)
+  * Capability-based kernel; Separation of policy and mechanism; Rejection of rigid layering
 
 ## Unix and Plan 9 (and MINIX and Linux)
 
 * The UNIX Time-Sharing System (1973). [Paper](https://dl.acm.org/doi/10.1145/361011.361061) \| [Note](notes/unix.md)
+  * Interactive terminal; Everything is a file
 
 * Plan 9 From Bell Labs (1995). [Paper](https://www.usenix.org/legacy/publications/compsystems/1995/sum_pike.pdf) \| [Note](notes/plan9.md)
+  * Distributed OS that further pushes everything is a file; UTF-8
 
 * Lessons Learned from 30 Years of MINIX (2016). [Paper](https://cacm.acm.org/magazines/2016/3/198874-lessons-learned-from-30-years-of-minix/fulltext) \| [Note](notes/minix.md)
+  * OS lesson? Microkernel!
 
 * [Linux's Early History](https://www.cs.cmu.edu/~awb/linux.history.html) by Linus Torvalds (1992).
+  * It's a hobby project!
 
 ## Microkernel
 
 * Improving IPC by Kernel Design (1993). [Paper](https://dl.acm.org/doi/10.1145/173668.168633) \| [Note](notes/improving-ipc-by-kernel-design.md)
+  * Microkernel can be fast with a proper design
 
 * The Performance of μ-Kernel-Based Systems (1997). [Paper](https://dl.acm.org/doi/10.1145/269005.266660) \| [Note](notes/perf-microkernel-based-system.md)
+  * Add evidence to the previous one
 
 ## Library OS
 
 * Exokernel: An Operating System Architecture for Application-Level Resource Management (1995). [Paper](https://dl.acm.org/doi/10.1145/224057.224076) \| [Note](notes/exokernel.md)
+  * Separate protection from management → Exokernel + Libary OSes
 
 * Unikernels: Library Operating Systems for the Cloud (2013). [Paper](https://dl.acm.org/doi/10.1145/2490301.2451167) \| [Note](notes/unikernel.md)
 
@@ -38,6 +49,7 @@ A list of papers essential to computer software system design with my notes. It 
 
 * Experience with Processes and Monitors in Mesa (1980). [Paper](https://dl.acm.org/doi/10.1145/358818.358824) \| [Note](notes/monitor-mesa.md)
   * Background: Monitors: An Operating System Structuring Concept (1974). [Paper](https://dl.acm.org/doi/10.1145/355620.361161)
+  * Hoare semantics → Mesa semantics (notify is just an hint and awakening may not happen immediately)
 
 * Transactional Memory: Architectural Support for Lock-Free Data Structures (1993). [Paper](https://dl.acm.org/doi/10.1145/173682.165164) \| [Note](notes/transactional-memory.md)
 
@@ -55,24 +67,38 @@ A list of papers essential to computer software system design with my notes. It 
 * The Linux Scheduler: a Decade of Wasted Cores (2016). [Paper](https://dl.acm.org/doi/10.1145/2901318.2901326) \| [Note](notes/linux-sched-bug.md)
 
 * Lottery Scheduling: Flexible Proportional-Share Resource Management (1994). [Paper](https://www.usenix.org/legacy/publications/library/proceedings/osdi/full_papers/waldspurger.pdf)  \| [Note](notes/lottery-sched.md)
+  * Get scheduled = win lottery
 
 ## Memory Management
+
+* Virtual Memory Management in VAX/VMS Operating System (1982). [Paper](https://ieeexplore.ieee.org/document/1653971)
+
+* Machine-Independent Virtual Memory Management for Paged Uniprocessor and Multiprocessor Architectures (1987). [Paper](https://dl.acm.org/citation.cfm?id=36181)
 
 * Translation Caching: Skip, Don’t Walk (the Page Table) (2010). [Paper](https://dl.acm.org/doi/10.1145/1815961.1815970) \| [Note](notes/translation-cache.md)
 
 * Elastic Cuckoo Page Tables: Rethinking Virtual Memory Translation for Parallelism (2020). [Paper](https://dl.acm.org/doi/10.1145/3373376.3378493) \| [Note](notes/elastic-cuckoo-page-table.md)
 
 * Efficient Virtual Memory for Big Memory Servers (2013). [Paper](https://dl.acm.org/citation.cfm?id=2485943) \| [Note](notes/direct-segment.md)
+  * If troubled by paged VM, why not welcome back segmentation (partially)?
 
 * Coordinated and Efficient Huge Page Management with Ingens (2016). [Paper](https://www.usenix.org/system/files/conference/osdi16/osdi16-kwon.pdf)  \| [Note](notes/ingens.md)
+  * Memory contiguity as a resource
 
-## Virtualization
+## Virtual Machine and Container
 
 * Xen and the Art of Virtualization (2003). [Paper](https://dl.acm.org/citation.cfm?id=945462) \| [Note](notes/xen.md)
+  * Paravirtualization
 
 * A Comparison of Software and Hardware Techniques for x86 Virtualization (2006). [Paper](https://dl.acm.org/citation.cfm?id=1168860) \| [Note](notes/sw-hw-virt.md)
+  * We need hardware support for MMU virtualization
 
-* My VM is Lighter (and Safer) than your Container (2017).
+* My VM is Lighter (and Safer) than your Container (2017). [Paper](https://dl.acm.org/citation.cfm?id=3132763) \| [Note](notes/lightvm.md)
+  * Minimalist VM image + improved Xen control plane = fast VM
+
+* X-Containers: Breaking Down Barriers to Improve Performance and Isolation of Cloud-Native Containers (2019).
+
+* Firecracker: Lightweight Virtualization for Serverless Applications (2020). [Paper](https://dl.acm.org/citation.cfm?id=3132763) \| [Note](notes/firecracker.md)
 
 ## Storage and File Systems
 
