@@ -76,6 +76,7 @@ A list of papers essential to computer software system design with my notes. It 
 * Machine-Independent Virtual Memory Management for Paged Uniprocessor and Multiprocessor Architectures (1987). [Paper](https://dl.acm.org/citation.cfm?id=36181)
 
 * Translation Caching: Skip, Don’t Walk (the Page Table) (2010). [Paper](https://dl.acm.org/doi/10.1145/1815961.1815970) \| [Note](notes/translation-cache.md)
+  * Radix-tree-based virtual memory translation made fast with proper cache design
 
 * Elastic Cuckoo Page Tables: Rethinking Virtual Memory Translation for Parallelism (2020). [Paper](https://dl.acm.org/doi/10.1145/3373376.3378493) \| [Note](notes/elastic-cuckoo-page-table.md)
 
@@ -103,12 +104,15 @@ A list of papers essential to computer software system design with my notes. It 
 ## Storage and File Systems
 
 * A Fast File System for Unix (1984). [Paper](https://dl.acm.org/doi/10.1145/989.990) \| [Note](notes/ffs.md)
+  * Your FS runs on a disk, optimize for it!
 
 * The Design and Implementation of a Log-Structured File System (1991). [Paper](https://dl.acm.org/doi/10.1145/121133.121137) \| [Note](notes/lfs.md)
+  * Sequential write is fast? Then do it all the time!
 
 * Soft Updates: A Solution to the Metadata Update Problem in File Systems (2000). [Paper](https://dl.acm.org/doi/10.1145/350853.350863) \| [Note](notes/soft-updates.md)
 
 * The Rio File Cache: Surviving Operating System Crashes (1996). [Paper](https://dl.acm.org/doi/10.1145/989.990) \| [Note](notes/rio.md)
+  * What if my RAM survives OS crash?
 
 * The Google File System (2003). [Paper](https://dl.acm.org/doi/10.1145/945445.945450) \| [Note](notes/gfs.md)
 
