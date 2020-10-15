@@ -95,11 +95,13 @@ A list of papers essential to computer software system design with my notes. It 
   * We need hardware support for MMU virtualization
 
 * My VM is Lighter (and Safer) than your Container (2017). [Paper](https://dl.acm.org/citation.cfm?id=3132763) \| [Note](notes/lightvm.md)
-  * Minimalist VM image + improved Xen control plane = fast VM
+  * Minimalist VM image (+ improved Xen control plane) = light VM
 
-* X-Containers: Breaking Down Barriers to Improve Performance and Isolation of Cloud-Native Containers (2019).
+* X-Containers: Breaking Down Barriers to Improve Performance and Isolation of Cloud-Native Containers (2019). [Paper](https://dl.acm.org/citation.cfm?id=3304016) \| [Note](notes/x-container.md)
+  * Applying the exokernel approach to the container architecture
 
 * Firecracker: Lightweight Virtualization for Serverless Applications (2020). [Paper](https://dl.acm.org/citation.cfm?id=3132763) \| [Note](notes/firecracker.md)
+  * VMM specialized for serverless workloads
 
 ## Storage and File Systems
 
