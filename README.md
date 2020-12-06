@@ -120,8 +120,6 @@ A list of papers essential to computer software system design with my notes. It 
 
 * Windows Azure Storage: A Highly Available Cloud Storage Service with Strong Consistency (2011). [Paper](https://dl.acm.org/doi/10.1145/2043556.2043571) \| [Note](notes/azure-storage.md)
 
-## Communication
-
 ## Distributed Systems
 
 * The Sprite Network Operating System (1988).
@@ -132,8 +130,10 @@ A list of papers essential to computer software system design with my notes. It 
 
 * MapReduce: Simplified Data Processing on Large Clusters (2004).
 
-## Performance
-
 ## Protection
 
 ## Reliability
+
+* Improving the Reliability of Commodity Operating Systems (2003). [Paper](https://dl.acm.org/doi/10.1145/1165389.945466) \| [Note](notes/nooks.md)
+
+* Bugs as Deviant Behavior: A General Approach to Inferring Errors in Systems Code (2001). [Paper](https://dl.acm.org/doi/10.1145/502034.502041) \| [Note](notes/bug-deviant-behavior.md)
